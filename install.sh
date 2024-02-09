@@ -1,7 +1,7 @@
 #!/data/data/com.termux/files/usr/bin/bash
 pkg install wget tar gzip -y
 
-wget http://cli-assets.heroku.com/heroku-linux-arm.tar.gz -O heroku.tar.gz
+wget https://cli-assets.heroku.com/channels/stable/heroku-linux-arm.tar.gz -O heroku.tar.gz
 tar -xvzf heroku.tar.gz
 mkdir -p /data/data/com.termux/files/usr/lib/heroku
 mv heroku/* /data/data/com.termux/files/usr/lib/heroku
